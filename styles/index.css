@@ -1,0 +1,203 @@
+.prallax_hero {
+    height: 100%;
+    width: 100%;
+    background-image: url('../graphics/hero.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.prallax_hero_title {
+    position: absolute;
+    width: 29%;
+    top: 45%;
+    left: 34.0%;
+    padding: 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #9CC6B7;
+    font-family: Arial Black;
+    background-color: white;
+
+}
+
+
+.title {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 3.5%;
+    width: 70%;
+    font-size: 290%;
+    font-weight: bold;
+    color: #9CC6B7;
+}
+
+.open_anchor {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
+    padding: .6%;
+
+    border: solid 1.25px #858585;
+    border-radius: 2.5px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+
+    color: #9CC6B7;
+    font-size: 150%;
+}
+
+
+/* Article 1 */
+.article_1 {
+    display: inline-block;
+    max-width: 80%;
+    margin-top: 4%;
+    font-size: 150%;
+    font-weight: 400;
+    word-break: break-word;
+
+
+    color: #858585;
+
+}
+
+/* Article 2 */
+.article_2 {
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    min-height: 200px;
+
+}
+
+.article_2_text {
+    position: relative;
+    display: inline-block;
+    max-width: 52%;
+    padding-right: 8%;
+    color: #858585;
+
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.article_2_image {
+    display: inline-block;
+    max-width: 30%;
+    vertical-align:middle;
+}
+
+.article_2_image > img{
+    max-width: 100% !important;
+    vertical-align: middle;
+
+}
+
+
+
+
+@media (max-width: 1140px) {
+    .prallax_hero {
+        height: 100%;
+        width: 100%;
+        background-image: url('../graphics/hero.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    .prallax_hero_title {
+        position: absolute;
+        width: 80%;
+        top: 45%;
+        left: 10%;
+        padding: 1%;
+        font-size: 100%;
+        text-align: center;
+        color: #9CC6B7;
+        font-family: Arial Black;
+        background-color: white;
+    
+    }
+    
+    
+    .title {
+        display: inline-block;
+        vertical-align: bottom;
+        padding-top: 3.5%;
+        width: 70%;
+        font-size: 290%;
+        font-weight: bold;
+        color: #9CC6B7;
+    }
+    
+    .open_anchor {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5%;
+        padding: .6%;
+    
+        border: solid 1.25px #858585;
+        border-radius: 2.5px;
+        border-top-left-radius: 10px 10px;
+        border-bottom-left-radius: 10px 10px;
+    
+        color: #9CC6B7;
+        font-size: 150%;
+    }
+    
+    
+    /* Article 1 */
+    .article_1 {
+        display: inline-block;
+        max-width: 80%;
+        margin-top: 4%;
+        font-size: 150%;
+        font-weight: 400;
+        word-break: break-word;
+    
+    
+        color: #858585;
+    
+    }
+    
+    /* Article 2 */
+    .article_2 {
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+        min-height: 200px;
+    
+    }
+    
+    .article_2_text {
+        position: relative;
+        display: inline-block;
+        max-width: 52%;
+        padding-right: 8%;
+        color: #858585;
+    
+        vertical-align: middle;
+        font-weight: bolder;
+        font-size: 200%;
+    }
+    
+    .article_2_image {
+        display: inline-block;
+        max-width: 30%;
+        vertical-align:middle;
+    }
+    
+    .article_2_image > img{
+        max-width: 100% !important;
+        vertical-align: middle;
+    
+    }
+
+}

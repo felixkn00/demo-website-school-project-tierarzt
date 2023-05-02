@@ -1,0 +1,204 @@
+.prallax_hero {
+    height: 100%;
+    width: 100%;
+
+}
+
+.prallax_hero_title {
+    position: absolute;
+    width: 29%;
+    top: 30%;
+    left: 34.0%;
+    padding: 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #9CC6B7;
+    font-family: Arial Black;
+    background-color: white;
+}
+
+.prallax_hero_title > h1{
+    line-height: 50%;
+    font-size: 570%;
+}
+
+.prallax_hero_title > p{
+    font-size: 270%;
+    color: #858585;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article:first-of-type {
+    position: relative;
+    margin-top: 0% !important;
+}
+
+article {
+    position: relative;
+    margin-top: 20% !important;
+}
+
+article > img {
+
+    max-width: 550px !important;
+    height: auto !important;
+  
+}
+
+.article_content_item{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding: 0;
+    font-size: 135%;
+
+    color: #858585;
+
+
+
+}
+
+.article_content_item_text_left_spacing{
+    padding-left: 6% !important;
+}
+
+.article_content_item > h2{
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    color: #9CC6B7;
+    font-size: 250%;
+}
+
+
+.article_content_item_special_p {
+    margin-top: 17%;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1140px) {
+    .prallax_hero {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    .prallax_hero_title {
+        position: absolute;
+        width: 70%;
+        top: 30%;
+        left: 15%;
+        padding: 1%;
+        font-size: 100%;
+        text-align: center;
+        color: #9CC6B7;
+        font-family: Arial Black;
+        background-color: white;
+    }
+    
+    .prallax_hero_title > h1{
+        line-height: 50%;
+        font-size: 570%;
+    }
+    
+    .prallax_hero_title > p{
+        font-size: 270%;
+        color: #858585;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    article:first-of-type {
+        position: relative;
+        margin-top: 0% !important;
+    }
+    
+    article {
+        position: relative;
+        margin-top: 35% !important;
+    }
+
+
+    article > img {
+
+            width: 100% !important;
+            height: auto !important;
+          
+    }
+
+   
+    
+    .article_content_item{
+        display: inline-block;
+        height: auto;
+        width: 90% !important;
+        margin-top: 10%;
+        padding: 0;
+        font-size: 135%;
+    
+        color: #858585;
+    
+    
+    
+    }
+    
+    .article_content_item_text_left_spacing{
+        padding-left: 0 !important;
+    }
+    
+    .article_content_item > h2{
+        width: 100%;
+        text-align: center;
+        display: block;
+        color: #9CC6B7;
+        font-size: 250%;
+    }
+    
+    
+    .article_content_item_special_p {
+        margin-top: 17%;
+        font-weight: bolder;
+    }
+    
+    
+    
+    
+ 
+    
+
+
+}

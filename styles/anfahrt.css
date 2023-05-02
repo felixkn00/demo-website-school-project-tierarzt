@@ -1,0 +1,208 @@
+.prallax_hero {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.prallax_hero_title {
+    position: absolute;
+    width: 80%;
+    top: 35%;
+    left: 10%;
+    padding: 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #9CC6B7;
+    font-family: Arial Black;
+    background-color: white;
+    
+}
+
+.prallax_hero_title *{
+    margin: 3%;
+}
+
+.prallax_hero_title > h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50%;
+    font-size: 360%;
+}
+
+.prallax_hero_title > p {
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 150%;
+    color: #858585;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+.content_container {
+    width: 80% !important;
+    margin-top: 1% !important;
+    margin: 0% !important;
+    max-width: 100% !important;
+    min-height: 10% !important;
+    margin-left: 10% !important;
+    border-radius: 15px;
+  
+
+}
+
+.content_container > *{
+    margin: 0 !important;
+
+}
+
+.map {
+    width: 80vw !important;
+    
+    height: 400px !important;
+   
+    border-radius: 15px;
+    background-image: url('../graphics/anfahrt-maps.png');
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.content_container > p {
+    height: auto;
+    width: 100%;
+    font-size: 175%;
+    position: relative;
+    display: inline-block;
+    padding-top: 16.5%;
+    color: #858585;
+    padding-bottom: 5%;
+    
+
+}
+
+
+.content_container img {
+    display: inline-block;
+    padding-right: 5.5%;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1140px) {
+    .prallax_hero {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    
+    
+    .prallax_hero_title {
+        position: absolute;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+        padding: 1%;
+        font-size: 100%;
+        text-align: center;
+        color: #9CC6B7;
+        font-family: Arial Black;
+        background-color: white;
+        
+    }
+    
+    .prallax_hero_title *{
+        margin: 3%;
+    }
+    
+    .prallax_hero_title > h1{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 50%;
+        font-size: 360%;
+    }
+    
+    .prallax_hero_title > p {
+        font-family: Arial;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 150%;
+        color: #858585;
+        vertical-align: middle;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .content_container {
+        width: 80% !important;
+        margin-top: 1% !important;
+        margin: 0% !important;
+        max-width: 100% !important;
+        min-height: 10% !important;
+        margin-left: 10% !important;
+        border-radius: 15px;
+      
+    
+    }
+    
+    .content_container > *{
+        margin: 0 !important;
+    
+    }
+    
+    .map {
+        width: 80vw !important;
+        
+        height: 400px !important;
+       
+        border-radius: 15px;
+        background-image: url('../graphics/anfahrt-maps.png');
+        background-attachment:local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    
+    .content_container > p {
+        height: auto;
+        width: 100%;
+        font-size: 175%;
+        position: relative;
+        display: inline-block;
+        padding-top: 16.5%;
+        color: #858585;
+        padding-bottom: 5%;
+        
+    
+    }
+    
+    
+    .content_container img {
+        display: inline-block;
+        width: 40%;
+    }
+
+}

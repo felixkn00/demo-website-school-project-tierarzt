@@ -1,0 +1,60 @@
+.prallax_hero {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.prallax_hero_title {
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    padding: 1%;
+    font-size: 100%;
+    text-align: center;
+    color: #9CC6B7;
+    font-family: Arial Black;
+    background-color: white;
+    
+}
+
+.prallax_hero_title *{
+    margin: 3%;
+}
+
+.prallax_hero_title > h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50%;
+    font-size: 360%;
+}
+
+.prallax_hero_title > nav > a {
+    display: block;
+    text-align: center;
+    margin: 2.5%;
+    font-size: 130%;
+    text-decoration: none;
+    color: #9CC6B7;
+}
+
+
+
+@media (max-width: 1140px) {
+    .prallax_hero_title {
+        position: absolute;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+        padding: 1%;
+        font-size: 100%;
+        text-align: center;
+        color: #9CC6B7;
+        font-family: Arial Black;
+        background-color: white;
+        
+    }
+
+}

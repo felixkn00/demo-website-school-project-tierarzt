@@ -3,95 +3,68 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Tierarztpraxis Dr. Schiller - Kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/eindruecke.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-   $("navmobile").hide() 
-  $("button").click(function(){
-    $("navmobile").toggle();
-  });
-});
-</script>
+    <script src="scripts/toggleMobileNavigaton.js"></script>
 </head>
 
 <body>
     <div>
         <div class="navigation_mobile">
-        <img src="graphics/header_image.jpg" /><button>Navigation</button>
+            <button>X</button><img src="graphics/header_image.jpg" alt="Error 404" /><span>Dr. S</span>
         </div>
-    <navmobile  id="">
-        <a>Praxis</a>
-        <a>Leistungen</a>
-        <a>Eindrücke</a>
-        <a>Team</a>
-        <a>Info&News</a>
-        <a>Anfahrt</a>
-     </navmobile>
-</div>
+        <nav class="navigation_mobile_elements" id="navigation_mobile_elements">
+            <a href="index.html">Praxis</a>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="bilder.html">Bilder</a>
+            <a href="team.html">Team</a>
+            <a href="neuigkeiten.html">Neuigkeiten</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </div>
 
-    <nav>
-        <img src="graphics/header_image.jpg" />
-        <a>Praxis</a>
-        <a>Leistungen</a>
-        <a>Eindrücke</a>
-        <a>Team</a>
-        <a>Info&News</a>
-        <a>Anfahrt</a>
+    <nav class="navigation_desktop">
+        <img src="graphics/header_image.jpg" alt="Error 404" />
+        <a href="index.html">Praxis</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="bilder.html">Bilder</a>
+        <a href="team.html">Team</a>
+        <a href="neuigkeiten.html">Neuigkeiten</a>
+        <a href="kontakt.html">Kontakt</a>
     </nav>
-
 
 
     <div class="prallax_hero">
         <div class="prallax_hero_title">
-            <h1>Eindrücke</h1>
+            <h1>&darr; &nbsp;Anfahrt</h1>
+            <p> Bredenheider Weg 7
+                <br />
+                21629 Neu Wulmstorf
+            </p>
         </div>
     </div>
 
 
 
-
-
-
-
-
-
-
-
     <main class="content_container">
-        
-        <img class="img-type-1" src="graphics/eindruecke/urkunde.png" /><div class="placeholder-type-1"></div>
 
-        <div class="placeholder-type-2"></div><img class="img-type-2" src="graphics/eindruecke/pferd.jpg" />
 
-        <img class="img-type-3" src="graphics/eindruecke/praxis.jpg" /><div class="placeholder-type-3"></div>
+        <div class="map"></div>
 
-        <img class="img-type-5" src="graphics/eindruecke/arzt.jpg" /><img class="img-type-4" src="graphics/eindruecke/hund-stuhl.png" />
-      
-        <img class="img-type-4" src="graphics/eindruecke/roentgen.jpg" /><img class="placeholder-type-4" src="graphics/eindruecke/werkzeug.jpg" />
+        <p>
+            Bitte nutzen Sie die Parkplätze direkt vor der Praxis.<br />
+            Eine Bushaltestelle befindet sich in unmittelbarer Nähe.
+        </p>
+
+        <img src="graphics/parkplatz.jpg" alt="Error 404" />
+
+        <img src="graphics/parkschild.jpg" alt="Error 404" />
 
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -123,7 +96,7 @@ $(document).ready(function(){
             </div>
 
             <div class="open_image">
-                <img src="graphics/clock.png" />
+                <img src="graphics/clock.png" alt="Error 404" />
             </div>
 
         </div>
@@ -148,7 +121,8 @@ $(document).ready(function(){
                 <p class="footer_navigation_text_style">
                     Tel. 040-7907908
                     <br />
-                    <button class="footer_navigation_email_button">Email schreiben</button>
+                    <br />
+                    <a href="mailto:kontakt@tierarztpraxis-dr-schiller.de" class="footer_navigation_email_button">Email schreiben</a>
                 </p>
 
             </div>
@@ -156,12 +130,12 @@ $(document).ready(function(){
                 <a>Impressum</a>
                 <a>Datenschutz</a>
                 <a>Cookies-Richtlinien</a>
-                <a>Sitemap</a>
+                <a href="sitemap.html" target="_self">Sitemap</a>
             </div>
         </div>
 
 
-        <img src="graphics/wave.svg" />
+        <img src="graphics/wave.svg" alt="Error 404" />
 
     </footer>
 

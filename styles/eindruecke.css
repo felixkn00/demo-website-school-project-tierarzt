@@ -16,7 +16,6 @@
     text-align: center;
     color: #9CC6B7;
     font-family: Arial Black;
-    background-color: white;
     
 }
 
@@ -52,59 +51,57 @@
 
 
 
-.img1 {
+.img-type-1 {
     display: inline-block;
-    width: 95%;
+    width: 45%;
     max-height: auto;
-    background: red;
 }
 
-.placeholder1 {
+.placeholder-type-1 {
     display: inline-block;
     width: 50%;
-    background: blue;
 }
 
-.img2 {
+.img-type-2 {
     display: inline-block;
     width: 50%;
-    background: green;
     
 }
 
-.placeholder2 {
+.placeholder-type-2 {
     display: inline-block;
     width: 40%;
-    background: yellow;
 }
 
 
-.img3 {
+.img-type-3 {
     display: inline-block;
     width: 50%;
     max-height: auto;
-    background: red;
 }
 
-.placeholder3 {
+.placeholder-type-3 {
     display: inline-block;
     width: 45%;
-    background: blue;
 }
 
-.img4 {
+.img-type-4 {
     margin-top: 10%;
     display: inline-block;
     max-width: 90%;
     max-height: 70vh;
-    background: red;
 }
 
-.placeholder4 {
+.img-type-5 {
     display: inline-block;
-    max-width: 95%;
+    max-width: 45%;
     max-height: auto;
-    background: blue;
+}
+
+.placeholder-type-4 {
+    display: inline-block;
+    max-width: 45%;
+    max-height: auto;
 }
 
 
@@ -146,10 +143,10 @@
     
     
     .content_container {
-        width: 80% !important;
+        width: 90% !important;
         max-width: 100% !important;
         min-height: 10% !important;
-        margin-left: 10% !important;
+        margin-left: 5% !important;
         border-radius: 15px;
         background-image: url('../graphics/eindruecke/svg\(2\).png');
         background-attachment: fixed;
@@ -163,50 +160,54 @@
     
     
     
-    .img1 {
+    .img-type-1 {
         display: block;
         width: 90%;
         max-height: auto;
-        background: red;
     }
     
-    .placeholder1 {
+    .placeholder-type-1 {
         display: hidden;
 
     }
     
-    .img2 {
+    .img-type-2 {
         display: block;
         width: 90%;
   
         
     }
     
-    .placeholder2 {
+    .placeholder-type-2 {
         display: hidden;
     }
     
     
-    .img3 {
+    .img-type-3 {
         display: block;
         width: 90%;
         max-height: auto;
-        background: red;
     }
     
-    .placeholder3 {
+    .placeholde-type-3 {
         display: hidden;
     }
-    
-    .img4 {
+
+    .img-type-4 {
         margin-top: 0;
         display: block;
         max-width: 90%;
         max-height: auto;
-        background: red;
+    }
+
+    .img-type-5 {
+        display: block;
+        width: 100%;
+        height: auto;
     }
     
-    .placeholder4 {
+    
+    .placeholder-type-4 {
         display: hidden;
     }
 

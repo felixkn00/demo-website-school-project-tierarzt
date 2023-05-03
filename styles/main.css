@@ -1,8 +1,8 @@
-.mobile_nav {
+.navigation_mobile {
     display: none;
 }
 
-navmobile {
+.navigation_mobile_elements {
     position: relative;
     margin-top: 45%;
     margin-left: 2.5%;
@@ -18,30 +18,30 @@ navmobile {
 
 }
 
-navmobile > * {
+.navigation_mobile_elements > * {
     display: block;
     margin-top: 8%;
     width: 100%;
     text-align: center;
 }
 
-navmobile a {
+.navigation_mobile_elements a {
     font-size: 175%;
     font-weight: bold;
     color: #FFFFFF;
 }
 
-navmobile a:first-of-type {
+.navigation_mobile_elements a:first-of-type {
     font-size: 245%;
     color: #858585;
 }
 
-navmobile a:last-of-type {
+.navigation_mobile_elements a:last-of-type {
     margin-bottom: 8%;
 }
 
 
-navmobile > img {
+.navigation_mobile_elements > img {
     height: 95%;
     width: auto;
 }
@@ -59,7 +59,7 @@ html {
 }
 
 
-nav {
+.navigation_desktop {
     display: block;
     position: fixed;
     padding: .5%;
@@ -72,7 +72,7 @@ nav {
 
 }
 
-nav > * {
+.navigation_desktop > * {
     display: inline-block;
     width: 14.28%;
     max-height: 90px;
@@ -80,19 +80,19 @@ nav > * {
     vertical-align: middle;
 }
 
-nav a {
+.navigation_desktop a {
     font-size: 175%;
     font-weight: bold;
     color: #FFFFFF;
 
 }
-nav a:first-of-type {
+.navigation_desktop a:first-of-type {
     font-size: 245%;
     color: #858585;
 }
 
 
-nav > img {
+.navigation_desktop > img {
     height: 95%;
     width: auto;
 }
@@ -267,7 +267,7 @@ color: #9CC6B7;
 @media (max-width: 1140px) {
 
 
-    .mobile_nav {
+    .navigation_mobile {
         display: block;
         position: fixed;
         padding: .5%;
@@ -284,12 +284,12 @@ color: #9CC6B7;
 
     }
 
-        .mobile_nav > button{
+        .navigation_mobile > button{
             font-weight: bold;
                 display: inline-block;
                 width: 17%;
                 vertical-align: middle;
-                margin-right: 4%;
+                margin-right: 6%;
                 padding: 5%;
                 background: rgb(100, 148, 131);
                 font-size: 135%;
@@ -300,16 +300,24 @@ color: #9CC6B7;
                 border-radius: 5px;;
             }
     
-        .mobile_nav > img {
+        .navigation_mobile > img {
             height: 95%;
             width: auto;
             vertical-align: middle;
     
         }
 
+        .navigation_mobile > span {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin: 3%;
+        }
+
 
     
-    nav {
+    .navigation_desktop {
         display: none;
        
     

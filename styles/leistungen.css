@@ -204,6 +204,7 @@ article > li {
         font-size: 200%;
         padding-top: 2%;
         color: #333333;
+        word-break: break-all;
     }
     
     article > p, ul {

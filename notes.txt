@@ -2,7 +2,7 @@ https://medium.com/@glavecoding/google-map-api-in-vue-js-925c7052a9b6
 
 
 
-<a class="nav_contact">Bredenheider Weg 7<br />
+<a class="nav_contact">Bredenheider Weg 7<br />     toggle with jquery 
             21629 Neu Wulmstorf </a>
         <a class="nav_contact">
             Telefon 040-7907908

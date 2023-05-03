@@ -201,8 +201,9 @@
     
     
     .content_container img {
-        display: inline-block;
-        width: 40%;
+        display: block;
+        padding-top: 10%;
+        width: 100%;
     }
 
 }

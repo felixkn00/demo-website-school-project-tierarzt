@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("navmobile").hide()
+    $("#navigation_mobile_elements").hide()
     $("button").click(function () {
-        $("navmobile").slideToggle("fast");
+        $("#navigation_mobile_elements").slideToggle("fast");
 
     });
 });
